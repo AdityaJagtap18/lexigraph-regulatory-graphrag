@@ -1,0 +1,52 @@
+# Cloud Security & IAM Governance Policies for LexiGraph
+version: "2026-11"
+
+access_control:
+  enforce_rbac: true
+  roles:
+    - role_name: ComplianceAuditor
+      description: Read-only access to regulatory graph and community reports.
+      allowed_actions:
+        - graph:read
+        - graph:query_global
+        - audit:view
+    - role_name: PlatformEngineer
+      description: Manage indexing, graph extraction, and system maintenance.
+      allowed_actions:
+        - graph:read
+        - graph:write
+        - graph:index
+        - security:configure
+    - role_name: ExecutiveOfficer
+      description: Read executive multi-hop synthesis briefings and risk summaries.
+      allowed_actions:
+        - graph:query_global
+        - graph:query_local
+
+encryption:
+  algorithm: AES-256-GCM
+  envelope_key_provider: AWS-KMS
+  key_alias: alias/lexigraph-compliance-cmk
+  encrypt_artifacts_at_rest: true
+  encrypt_query_logs: true
+
+guardrails:
+  redaction_enabled: true
+  patterns:
+    - name: EMAIL_ADDRESS
+      regex: "[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+"
+      replacement: "[REDACTED_EMAIL]"
+    - name: SSN_TAX_ID
+      regex: "\\b\\d{3}-\\d{2}-\\d{4}\\b"
+      replacement: "[REDACTED_TAX_ID]"
+    - name: IP_ADDRESS
+      regex: "\\b\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\b"
+      replacement: "[REDACTED_IP]"
+    - name: RESTRICTED_SUBSTATION_SECRET
+      regex: "\\bGRID-KEY-[A-Z0-9]{8}\\b"
+      replacement: "[CONFIDENTIAL_GRID_CREDENTIAL]"
+
+audit:
+  log_all_queries: true
+  hash_chaining: true
+  destination: data/artifacts/audit_trail.jsonl

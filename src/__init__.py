@@ -1,0 +1,1 @@
+"""LexiGraph root package."""

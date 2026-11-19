@@ -1,0 +1,37 @@
+# GraphRAG extraction, chunking, and community summarization settings
+version: "1.0"
+indexing:
+  chunk_size: 600
+  chunk_overlap: 100
+  entity_types:
+    - ORGANIZATION
+    - DIRECTIVE
+    - JURISDICTION
+    - REGULATORY_OBLIGATION
+    - ENERGY_INFRASTRUCTURE
+    - EMISSIONS_STANDARD
+    - COMPLIANCE_PENALTY
+  relationship_types:
+    - MANDATED_BY
+    - OPERATES_IN
+    - EMITS_UNDER
+    - SUBJECT_TO
+    - PENALIZED_BY
+    - AUDITED_BY
+  clustering:
+    algorithm: leiden
+    max_cluster_size: 15
+    hierarchical_levels: 3
+
+embeddings:
+  provider: sentence-transformers
+  model: all-MiniLM-L6-v2
+  dimension: 384
+  metric: cosine
+
+storage:
+  type: parquet
+  base_dir: data/artifacts
+  entities_file: create_final_entities.parquet
+  relationships_file: create_final_relationships.parquet
+  communities_file: create_final_community_reports.parquet

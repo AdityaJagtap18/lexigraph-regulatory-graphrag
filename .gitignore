@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# GraphRAG and data artifacts
+*.parquet
+*.lance
+*.db
+*.duckdb
+*.log
+data/artifacts/*.parquet
+data/artifacts/*.json
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment and keys
+.env
+*.pem
+*.key

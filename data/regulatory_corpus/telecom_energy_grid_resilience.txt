@@ -1,0 +1,15 @@
+NORTH AMERICAN ELECTRIC RELIABILITY CORPORATION (NERC) & EU NIS2 DIRECTIVE
+CROSS-BORDER TELECOMMUNICATIONS & ELECTRIC POWER GRID RESILIENCE STANDARDS
+STANDARD CIP-014-3 / NIS2 DIRECTIVE (EU) 2022/2555: PHYSICAL AND CYBERSECURITY OF CRITICAL SUBSTATIONS
+
+Section R1: Transmission and Cellular Substation Criticality Assessments
+1. Transmission Owners and Cellular Infrastructure Operators shall perform periodic risk assessments of transmission substations and associated telecommunications backhaul facilities to determine whether an attack or environmental failure would destabilize the regional interconnection.
+2. If an energy substation powers cellular switching centers or national emergency response communications networks, it shall be classified as High-Impact Critical Infrastructure (HICI).
+
+Section R2: Third-Party Power Procurement and Supply Chain Due Diligence
+1. High-Impact Critical Infrastructure operators shall mandate verifiable dual-feed power delivery systems, localized battery storage buffers (minimum 72-hour operational rating), and redundant optical ground wire (OPGW) paths.
+2. Supply-chain procurement of high-voltage transformers and optical transmission multiplexers must comply with both domestic supply-chain security guidelines and international sustainability standards. Uncertified foreign suppliers or equipment sourced from non-compliant jurisdictions are prohibited.
+
+Section R4: Mandatory Regulatory Incident Notification and Cross-Jurisdictional Reporting
+1. In the event of a physical or cyber breach, sudden power degradation exceeding 100 MW, or telecommunications outage affecting over 50,000 subscriber endpoints, the operator shall report the event to the national regulatory body within 24 hours of confirmation.
+2. Compliance logs, encryption key rotations, and access audit records shall be maintained in an immutable, cryptographically verifiable repository for a minimum retention window of 7 years, subject to unannounced regulatory audits by national energy regulators and cybersecurity supervisory authorities.

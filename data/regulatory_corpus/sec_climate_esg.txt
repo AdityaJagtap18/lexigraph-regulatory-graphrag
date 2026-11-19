@@ -1,0 +1,16 @@
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION (SEC)
+17 CFR PARTS 210, 229, 239, AND 249 — THE ENHANCEMENT AND STANDARDIZATION OF CLIMATE-RELATED DISCLOSURES
+SUBPART 229.1500: REGULATION S-K CLIMATE DISCLOSURES FOR PUBLIC REGISTRANTS
+
+Item 1502: Climate-Related Impacts on Strategy, Business Model, and Outlook
+1. Public telecommunications conglomerates, electric utilities, and multinational grid operators must disclose any climate-related risks that have materially impacted or are reasonably likely to have a material impact on the registrant's business strategy, results of operations, or financial condition.
+2. Energy utilities and telecom operators must evaluate physical risks to transmission towers, cellular base stations, transformer substations, and data centers arising from severe weather events, flooding, and wildfire exposure.
+
+Item 1504: Greenhouse Gas (GHG) Emissions Metrics and Scope Disclosure
+1. Large accelerated filers must disclose direct Scope 1 greenhouse gas emissions and indirect Scope 2 emissions from purchased electricity, steam, heating, and cooling consumed in operations.
+2. Where material or included in published reduction targets, Scope 3 supply-chain emissions—encompassing outsourced cloud computing nodes, telecommunications hardware manufacturing, and fuel transport—must be reported with quantitative line-item attestations.
+3. Attestation reports for Scope 1 and Scope 2 emissions must be provided by independent third-party assurance providers adhering to PCAOB or AICPA attestation standards.
+
+Item 1508: Governance and Board Oversight of Climate Risk
+1. Registrants must describe the board of directors' oversight of climate-related risks and management's role in assessing and managing material exposures.
+2. Registrants operating cross-border critical infrastructure must disclose financial penalties or pending regulatory actions from foreign jurisdictions—including the European Union CSDDD and national environmental agencies—that exceed $1,000,000 or represent more than 1% of consolidated current assets.

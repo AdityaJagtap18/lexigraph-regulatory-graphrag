@@ -1,0 +1,15 @@
+EUROPEAN UNION DIRECTIVE (EU) 2024/1760 — CORPORATE SUSTAINABILITY DUE DILIGENCE DIRECTIVE (CSDDD)
+CHAPTER II: DUE DILIGENCE OBLIGATIONS ACROSS UPSTREAM AND DOWNSTREAM VALUE CHAINS
+
+Article 6: Identification of Adverse Environmental and Human Rights Impacts
+1. Large telecommunications and energy undertakings operating within the internal market shall identify actual and potential adverse environmental impacts arising from their own operations, those of their subsidiaries, and, where related to their chain of activities, those of their business partners.
+2. In the energy transmission and telecommunications infrastructure sector, undertakings must systematically audit cross-border grid connections, power supply contracts, subsea fiber links, and distributed backup generators for greenhouse gas emissions and environmental degradation.
+
+Article 8: Prevention of Potential Adverse Impacts and Decarbonization Plans
+1. Member States shall ensure that companies adopt a transition plan for climate change mitigation ensuring that the business model and strategy of the company are compatible with the transition to a sustainable economy and the limiting of global warming to 1.5 °C in line with the Paris Agreement.
+2. Undertakings shall require contractual assurances from their tier-1 direct suppliers and key infrastructure operators confirming compliance with the undertaking's code of conduct and prevention action plan.
+
+Article 20: Civil Liability of Companies and Sanctions
+1. Member States shall ensure that a company is held liable for a damage caused to a natural or legal person if the company intentionally or negligently failed to comply with the obligations laid down in Articles 7 and 8.
+2. Pecuniary sanctions shall be effective, proportionate, and dissuasive. The maximum limit of financial penalties shall be not less than 5% of the net worldwide turnover of the undertaking in the financial year preceding the fining decision.
+3. The European Supervisory Authorities and designated national regulators shall maintain joint oversight over multinational conglomerates operating cross-border transmission networks and European cellular backbone infrastructure.
